@@ -25,62 +25,94 @@ font-style: normal;
   
 
 /* Common Codes */
-body {
-    margin: 0;
+body{
+    background-color: yellow;
     font-family: "K2D", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
 }
-
-
-/*******************************/
-/* Main Navigation             */
-/*******************************/
-.page_header {
+.page_header{
     padding-top: 48px;
-    background: linear-gradient(#ffff00, #ffff4d);
+    background: yellow;
 }
-.main_nav {
+.main_nav{
     width: 100%;
     max-width: 1140px;
     padding: 0 15px;
     margin: 0 auto;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav_brand , .nav_brand a {
+.nav_brand{
     font-size: 28px;
     color: #343a40;
 }
 .nav_brand a {
+    font-size: 28px;
+    color: #343a40;
     text-decoration: none;
 }
-
 .nav_button button {
-    height: 44px;
     padding: 8px 24px;
-    color: #fff;
+    color: white;
     background: black;
-    border: 2px solid black;
-    font-family: "K2D", sans-serif;
+    border: 1px solid black;
     font-weight: 500;
     line-height: normal;
     font-size: 1rem;
     border-radius: 0.3rem;
 }
+.text-center {
+    text-align: center !important;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    text-align: center;
+    background: yellow;
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.9;
+}
+.btn-success {
+    color: #ffffff;
+    background-color: #5cc72a;
+    border-color: #5cc72a;
+}
+.btn {
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    transition: all 0.2s;
+    margin-left: 550px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    align-items: center;
+}
+img{
+    width: 60%;
+    height: auto;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 250px;
 
-/*******************************/
-/* Main Body                   */
-/*******************************/
-/* Hero Section */
-/* Feature section */
-/* Websites Section */
-
-
-/*******************************/
-/* Footer                      */
-/*******************************/
-
+}
